@@ -13,18 +13,19 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase">
+          <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase pr-20">
             Software Engineer
           </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight pl-5">
             Younes Khadraoui
           </h1>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
             Building scalable systems & real-time applications.
           </p>
           <p className="text-sm text-muted-foreground max-w-xl mx-auto mb-10">
-            Master's student in Software Engineering, Experience building
-            pricing engines, web terminals & real-time communication platforms.
+            Master’s student in Software Engineering with a focus on backend
+            architecture, distributed systems, and high-performance
+            infrastructure.
           </p>
         </motion.div>
 
