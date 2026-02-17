@@ -13,10 +13,10 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
         >
-          <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase pr-20">
+          <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase">
             Software Engineer
           </p>
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight pl-5">
+          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight">
             Younes Khadraoui
           </h1>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
