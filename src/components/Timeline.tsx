@@ -4,30 +4,30 @@ const events = [
   {
     year: "2023–2025",
     title: "Micro Club",
-    description: "Web/Python/Deep Learning workshops & AI hackathon winner",
+    description: "Ateliers Web/Python/Deep Learning & gagnant hackathon IA",
   },
   {
     year: "06/2024–10/2025",
-    title: "Full-Stack Developer - Lazdek LLC",
+    title: "Développeur Full-Stack - Lazdek LLC",
     description:
-      "Remote: RH automation, accounting assistance, dynamic pricing & critical engines",
+      "Remote: automatisation RH, assistance comptable, pricing dynamique & moteurs critiques",
   },
   {
     year: "2024–2025",
-    title: "Key Projects",
+    title: "Projets clés",
     description:
-      "Real-time messaging, pricing engines, microservices architecture",
+      "Messagerie temps réel, moteurs de tarification, architecture microservices",
   },
   {
     year: "2025–2027",
-    title: "Master's in Software Engineering",
+    title: "Master Génie Logiciel",
     description:
-      "Université de Rouen Normandie - Advanced architecture & distributed systems",
+      "Université de Rouen Normandie - Architecture avancée & systèmes distribués",
   },
   {
     year: "06–09/2026",
-    title: "Apprenticeship Available",
-    description: "Full-Stack & DevOps - 15 days on/off, Rouen/Lille region",
+    title: "Alternance disponible",
+    description: "Full-Stack & DevOps - 15 jours on/off, région Rouen/Lille",
   },
 ];
 
@@ -43,10 +43,10 @@ const Timeline = () => {
           className="mb-16"
         >
           <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">
-            Growth
+            Croissance
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Professional Timeline
+            Parcours professionnel
           </h2>
         </motion.div>
 

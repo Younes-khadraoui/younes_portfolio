@@ -12,21 +12,21 @@ const Contact = () => {
           transition={{ duration: 0.5 }}
         >
           <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">
-            Next Step
+            Prochaine étape
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Let's Connect
+            Restons en contact
           </h2>
           <p className="text-foreground text-lg mb-2">
-            Available for{" "}
+            Disponible pour une{" "}
             <span className="text-text-bright font-semibold">
-              Apprenticeship (Alternance)
+              Alternance (Apprenticeship)
             </span>{" "}
-            September 2026
+            Septembre 2026
           </p>
           <p className="text-foreground text-lg mb-10">
             <span className="text-text-bright font-semibold">
-              15 days on / 15 days off
+              15 jours on / 15 jours off
             </span>{" "}
             · Rouen / Lille · Permis B
           </p>
@@ -37,7 +37,7 @@ const Contact = () => {
               className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium text-sm hover:bg-primary/90 transition-colors"
             >
               <Mail className="w-4 h-4" />
-              Get in Touch
+              Me contacter
             </a>
             <a
               href="https://github.com/younes-khadraoui"
@@ -63,7 +63,7 @@ const Contact = () => {
         {/* Footer */}
         <div className="mt-24 pt-8 border-t border-border">
           <p className="text-xs text-text-dim font-mono">
-            © 2026 Younes Khadraoui — Designed & built with precision.
+            © 2026 Younes Khadraoui — Conçu et construit avec précision.
           </p>
         </div>
       </div>

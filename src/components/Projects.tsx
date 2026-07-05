@@ -4,53 +4,53 @@ const projects = [
   {
     title: "Web Terminal",
     problem:
-      "Administrators need a secure, user-friendly way to manage Linux servers remotely without complex SSH tooling.",
+      "Les administrateurs ont besoin d'un moyen sécurisé et convivial de gérer les serveurs Linux à distance sans outils SSH complexes.",
     solution:
-      "Designed and managed the complete infrastructure for a remote server administration platform via SSH with a modern web interface.",
+      "Conception et gestion de l'infrastructure complète pour une plateforme d'administration de serveur à distance via SSH avec interface web moderne.",
     tech: ["Symfony", "Angular", "WebSockets", "SSH", "Docker", "CI/CD"],
     highlights: [
-      "End-to-end infrastructure management and deployment",
-      "Real-time bidirectional WebSocket communication",
-      "Secure SSH integration with containerized deployment",
+      "Gestion et déploiement complets de l'infrastructure de bout en bout",
+      "Communication WebSocket bidirectionnelle en temps réel",
+      "Intégration SSH sécurisée avec déploiement conteneurisé",
     ],
   },
   {
     title: "Gestion de Flotte - Microservices",
     problem:
-      "Fleet management requires distributed processing with multiple specialized services communicating seamlessly.",
+      "La gestion de flotte nécessite un traitement distribué avec plusieurs services spécialisés communiquant de façon transparente.",
     solution:
-      "Designed and developed a distributed system with 3 Symfony microservices communicating with a single Angular frontend.",
+      "Conception et développement d'un système distribué avec 3 microservices Symfony communiquant avec un frontend Angular unique.",
     tech: ["Symfony", "Angular", "Microservices", "PostgreSQL"],
     highlights: [
-      "Distributed architecture with 3 independent services",
-      "Unified frontend for multi-service ecosystem",
-      "Team collaboration using Agile methodology",
+      "Architecture distribuée avec 3 services indépendants",
+      "Frontend unifié pour l'écosystème multi-services",
+      "Collaboration d'équipe utilisant la méthodologie Agile",
     ],
   },
   {
-    title: "Lazdek - RH Automation Tool",
+    title: "Lazdek - Outil Automatisation RH",
     problem:
-      "HR teams needed an automated solution for internal management and critical business calculations.",
+      "Les équipes RH avaient besoin d'une solution automatisée pour la gestion interne et les calculs commerciaux critiques.",
     solution:
-      "Built an HR automation platform combining ReactJS frontend with FastAPI backend, and engineered critical pricing engines in Python.",
+      "Construction d'une plateforme d'automatisation RH combinant frontend ReactJS avec backend FastAPI, et moteurs de tarification critiques en Python.",
     tech: ["React", "FastAPI", "Python", "Docker"],
     highlights: [
-      "Rapid onboarding: fully operational within the first week",
-      "Dynamic pricing and computation engines",
-      "Agile methodology with rigorous Docker industrialization",
+      "Intégration rapide: opérationnel dans la première semaine",
+      "Moteurs de tarification dynamique et calcul",
+      "Méthodologie Agile avec industrialisation Docker rigoureuse",
     ],
   },
   {
-    title: "AI Hackathon - Building Detection",
+    title: "Hackathon IA - Détection de Bâtiments",
     problem:
-      "Quickly develop an AI solution for automated building detection from satellite imagery.",
+      "Développer rapidement une solution IA pour la détection automatisée de bâtiments à partir d'imagerie satellite.",
     solution:
-      "Won an AI hackathon by developing a Deep Learning-based building detection solution in less than 48 hours.",
+      "Gagnant du hackathon IA en développant une solution de détection de bâtiments basée sur le Deep Learning en moins de 48 heures.",
     tech: ["Python", "Deep Learning", "LangChain", "TensorFlow"],
     highlights: [
-      "Hackathon winner in under 48 hours",
-      "Advanced Deep Learning computer vision",
-      "Rapid prototyping and deployment",
+      "Gagnant du hackathon en moins de 48 heures",
+      "Vision par ordinateur Deep Learning avancée",
+      "Prototypage rapide et déploiement",
     ],
   },
 ];
@@ -67,10 +67,10 @@ const Projects = () => {
           className="mb-16"
         >
           <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">
-            Work
+            Travail
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Selected Projects
+            Projets sélectionnés
           </h2>
         </motion.div>
 
@@ -103,7 +103,7 @@ const Projects = () => {
               <div className="grid md:grid-cols-2 gap-6 mb-6">
                 <div>
                   <p className="text-xs font-mono text-text-dim uppercase mb-2">
-                    Problem
+                    Problème
                   </p>
                   <p className="text-sm text-foreground leading-relaxed">
                     {project.problem}
@@ -121,7 +121,7 @@ const Projects = () => {
 
               <div>
                 <p className="text-xs font-mono text-text-dim uppercase mb-3">
-                  Engineering Highlights
+                  Points techniques clés
                 </p>
                 <ul className="grid md:grid-cols-3 gap-2">
                   {project.highlights.map((h) => (

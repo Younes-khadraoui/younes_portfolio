@@ -14,18 +14,18 @@ const Hero = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
         >
           <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase">
-            Full-Stack & DevOps Developer
+            Développeur Full-Stack & DevOps
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight">
             Younes KHADRAOUI
           </h1>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
-            Alternance: 15j/15j | Rouen/Lille | Disponible juin-septembre 2026
+            Alternance: 15j/15j | Rouen/Lille | Disponible Septembre 2026
           </p>
           <p className="text-sm text-muted-foreground max-w-xl mx-auto mb-10">
-            Master's student in Software Engineering specializing in Full-Stack
-            development, DevOps, and real-time systems. Experienced with
-            Symfony, FastAPI, Go, React, and modern cloud infrastructure.
+            Étudiant en Master Génie Logiciel spécialisé en développement
+            Full-Stack, DevOps et systèmes temps réel. Expérimenté avec Symfony,
+            FastAPI, Go, React et l'infrastructure cloud moderne.
           </p>
         </motion.div>
 
@@ -39,7 +39,7 @@ const Hero = () => {
             href="#projects"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-primary text-primary-foreground font-medium text-sm hover:bg-primary/90 transition-colors"
           >
-            View Projects
+            Voir les projets
             <ArrowDown className="w-4 h-4" />
           </a>
           <a
@@ -57,7 +57,7 @@ const Hero = () => {
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg border border-border text-foreground font-medium text-sm hover:bg-secondary transition-colors"
           >
             <FileText className="w-4 h-4" />
-            Download CV
+            Télécharger CV
           </a>
         </motion.div>
       </div>

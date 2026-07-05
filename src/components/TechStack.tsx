@@ -14,7 +14,7 @@ const layers = [
     items: ["Docker", "Kubernetes", "Ansible", "CI/CD"],
   },
   {
-    label: "Databases & Tools",
+    label: "Bases de données & Outils",
     items: ["PostgreSQL", "MySQL", "Supabase", "GitHub/GitLab"],
   },
 ];
@@ -31,10 +31,10 @@ const TechStack = () => {
           className="mb-16"
         >
           <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">
-            Tools
+            Outils
           </p>
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Architecture Stack
+            Stack Architecture
           </h2>
         </motion.div>
 
@@ -49,7 +49,7 @@ const TechStack = () => {
               className="glow-border rounded-xl p-6 bg-card"
             >
               <p className="font-mono text-xs text-primary uppercase tracking-wider mb-4">
-                {layer.label} Layer
+                Couche {layer.label}
               </p>
               <ul className="space-y-3">
                 {layer.items.map((item) => (
