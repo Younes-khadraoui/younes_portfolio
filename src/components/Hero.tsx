@@ -14,18 +14,18 @@ const Hero = () => {
           transition={{ duration: 0.7, delay: 0.2 }}
         >
           <p className="font-mono text-sm text-primary mb-6 tracking-widest uppercase">
-            Software Engineer
+            Full-Stack & DevOps Developer
           </p>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 tracking-tight">
-            Younes Khadraoui
+            Younes KHADRAOUI
           </h1>
           <p className="text-lg md:text-xl text-foreground max-w-2xl mx-auto mb-4 leading-relaxed">
-            Building scalable systems & real-time applications.
+            Alternance: 15j/15j | Rouen/Lille | Disponible juin-septembre 2026
           </p>
           <p className="text-sm text-muted-foreground max-w-xl mx-auto mb-10">
-            Master’s student in Software Engineering with a focus on backend
-            architecture, distributed systems, and high-performance
-            infrastructure.
+            Master's student in Software Engineering specializing in Full-Stack
+            development, DevOps, and real-time systems. Experienced with
+            Symfony, FastAPI, Go, React, and modern cloud infrastructure.
           </p>
         </motion.div>
 

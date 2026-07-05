@@ -18,17 +18,17 @@ const Contact = () => {
             Let's Connect
           </h2>
           <p className="text-foreground text-lg mb-2">
-            Open to{" "}
+            Available for{" "}
             <span className="text-text-bright font-semibold">
-              Full Stack Internship
+              Apprenticeship (Alternance)
             </span>{" "}
-            "June 2026"
+            September 2026
           </p>
           <p className="text-foreground text-lg mb-10">
             <span className="text-text-bright font-semibold">
-              Apprenticeship
+              15 days on / 15 days off
             </span>{" "}
-            "September 2026"
+            · Rouen / Lille · Permis B
           </p>
 
           <div className="flex items-center justify-center gap-4 flex-wrap">

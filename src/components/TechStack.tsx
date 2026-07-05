@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 const layers = [
   {
     label: "Frontend",
-    items: ["React", "Angular", "HTMX", "Tailwind CSS"],
+    items: ["React", "Angular", "Tailwind CSS"],
   },
   {
     label: "Backend",
-    items: ["Go", "FastAPI", "Node.js", "Symfony"],
+    items: ["Symfony 7", "FastAPI", "Echo (Go)"],
   },
   {
-    label: "Infrastructure",
-    items: ["Docker", "Linux", "WebSockets", "SSH"],
+    label: "DevOps & Infrastructure",
+    items: ["Docker", "Kubernetes", "Ansible", "CI/CD"],
   },
   {
-    label: "Data",
-    items: ["PostgreSQL", "MongoDB", "Supabase", "REST APIs"],
+    label: "Databases & Tools",
+    items: ["PostgreSQL", "MySQL", "Supabase", "GitHub/GitLab"],
   },
 ];
 
@@ -30,8 +30,12 @@ const TechStack = () => {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">Tools</p>
-          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">Architecture Stack</h2>
+          <p className="font-mono text-xs text-primary mb-3 tracking-widest uppercase">
+            Tools
+          </p>
+          <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
+            Architecture Stack
+          </h2>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">

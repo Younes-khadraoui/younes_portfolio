@@ -2,54 +2,55 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Web Terminal Platform",
+    title: "Web Terminal",
     problem:
-      "Remote Linux server administration requires complex SSH tooling and manual configuration.",
+      "Administrators need a secure, user-friendly way to manage Linux servers remotely without complex SSH tooling.",
     solution:
-      "Built a web-based SSH interface enabling browser-based server management with secure authentication.",
-    tech: ["Symfony 7", "Angular", "WebSockets", "JWT", "Docker"],
+      "Designed and managed the complete infrastructure for a remote server administration platform via SSH with a modern web interface.",
+    tech: ["Symfony", "Angular", "WebSockets", "SSH", "Docker", "CI/CD"],
     highlights: [
-      "Real-time bidirectional communication via WebSockets",
-      "Secure JWT-based authentication flow",
-      "Containerized deployment with Docker",
+      "End-to-end infrastructure management and deployment",
+      "Real-time bidirectional WebSocket communication",
+      "Secure SSH integration with containerized deployment",
     ],
   },
   {
-    title: "Dynamic Pricing Engine",
+    title: "Gestion de Flotte - Microservices",
     problem:
-      "Listing and rental prices required manual adjustments and lacked real-time responsiveness to market demand.",
+      "Fleet management requires distributed processing with multiple specialized services communicating seamlessly.",
     solution:
-      "Engineered an algorithmic pricing engine at Lazdek LLC, enabling automated price optimization.",
-    tech: ["Go", "HTMX", "PostgreSQL", "REST APIs"],
+      "Designed and developed a distributed system with 3 Symfony microservices communicating with a single Angular frontend.",
+    tech: ["Symfony", "Angular", "Microservices", "PostgreSQL"],
     highlights: [
-      "Real-time price calculation based on market parameters",
-      "Go backend for high-performance computation",
-      "HTMX for lightweight, server-driven UI updates",
+      "Distributed architecture with 3 independent services",
+      "Unified frontend for multi-service ecosystem",
+      "Team collaboration using Agile methodology",
     ],
   },
   {
-    title: "Radiance Chat",
+    title: "Lazdek - RH Automation Tool",
     problem:
-      "Need for a real-time communication platform with modern UX and reliable message delivery.",
+      "HR teams needed an automated solution for internal management and critical business calculations.",
     solution:
-      "Built a full-featured chat application with WebSocket-based real-time messaging.",
-    tech: ["React", "Node.js", "WebSockets", "MongoDB"],
+      "Built an HR automation platform combining ReactJS frontend with FastAPI backend, and engineered critical pricing engines in Python.",
+    tech: ["React", "FastAPI", "Python", "Docker"],
     highlights: [
-      "Persistent real-time messaging with WebSocket connections",
-      "User presence and typing indicators",
-      "Message history with pagination",
+      "Rapid onboarding: fully operational within the first week",
+      "Dynamic pricing and computation engines",
+      "Agile methodology with rigorous Docker industrialization",
     ],
   },
   {
-    title: "Weather Cast",
-    problem: "Weather data APIs are complex and lack intuitive visualization.",
+    title: "AI Hackathon - Building Detection",
+    problem:
+      "Quickly develop an AI solution for automated building detection from satellite imagery.",
     solution:
-      "Created a clean weather dashboard consuming external APIs with responsive data visualization.",
-    tech: ["React", "FastAPI", "REST APIs"],
+      "Won an AI hackathon by developing a Deep Learning-based building detection solution in less than 48 hours.",
+    tech: ["Python", "Deep Learning", "LangChain", "TensorFlow"],
     highlights: [
-      "FastAPI backend aggregating weather data sources",
-      "Responsive React frontend with clean data presentation",
-      "API caching layer for performance optimization",
+      "Hackathon winner in under 48 hours",
+      "Advanced Deep Learning computer vision",
+      "Rapid prototyping and deployment",
     ],
   },
 ];

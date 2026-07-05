@@ -2,29 +2,32 @@ import { motion } from "framer-motion";
 
 const events = [
   {
-    year: "2023",
-    title: "Weather Cast",
-    description: "React + FastAPI weather dashboard",
+    year: "2023–2025",
+    title: "Micro Club",
+    description: "Web/Python/Deep Learning workshops & AI hackathon winner",
   },
   {
-    year: "2024",
-    title: "Radiance Chat",
-    description: "Real-time WebSocket messaging platform",
+    year: "06/2024–10/2025",
+    title: "Full-Stack Developer - Lazdek LLC",
+    description:
+      "Remote: RH automation, accounting assistance, dynamic pricing & critical engines",
   },
   {
     year: "2024–2025",
-    title: "Lazdek LLC",
-    description: "Go-based dynamic pricing engine, Professional experience",
-  },
-  {
-    year: "2025",
-    title: "Web Terminal",
-    description: "Browser-based SSH with Symfony, Angular & Docker",
+    title: "Key Projects",
+    description:
+      "Real-time messaging, pricing engines, microservices architecture",
   },
   {
     year: "2025–2027",
     title: "Master's in Software Engineering",
-    description: "Advanced studies in system design & architecture",
+    description:
+      "Université de Rouen Normandie - Advanced architecture & distributed systems",
+  },
+  {
+    year: "06–09/2026",
+    title: "Apprenticeship Available",
+    description: "Full-Stack & DevOps - 15 days on/off, Rouen/Lille region",
   },
 ];
 
